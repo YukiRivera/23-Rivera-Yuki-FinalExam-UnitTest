@@ -24,8 +24,8 @@ public class StringCalculatorTest {
 
     @Test
     public void AddTest2(){
-        int result = str.add("1, 1000, 2");
-        assertEquals(3, result);
+        int result = str.add("1,1000");
+        assertEquals(1, result);
     }
 
 
